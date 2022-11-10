@@ -19,7 +19,7 @@ h1{
 }
 ```
 
-El color azul se asignará a todas las etiquetas **<h1>** del documento.
+El color azul se asignará a todas las etiquetas **h1** del documento.
 
 Estos selectores son sencillos de usar pero no hacen una selección específica. La ventaja, podemos usarlos para estilos de página homogéneos. Por ejemplo, estilos de párrafos, títulos o tipografía.
 
