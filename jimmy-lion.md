@@ -1,4 +1,4 @@
-[EJERCICIO] (recursos/ejercicio.zip)
+[EJERCICIO](recursos/ejercicio.zip)
 
 ---
 
