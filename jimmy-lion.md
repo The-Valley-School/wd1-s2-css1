@@ -1,3 +1,7 @@
+[EJERCICIO] (recursos/ejercicio.zip)
+
+---
+
 Vamos a poner a prueba todo lo que hemos aprendido a lo largo de la sesión con la home de ¡Jimmy Lion!
 
 Tras analizar cada una de las secciones empezamos con el header:
