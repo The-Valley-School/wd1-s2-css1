@@ -19,11 +19,11 @@ SELECTOR {
 
  
 
-- El SELECTOR indicar al navegador que elementos modificaremos
-- La PROPIEDAD qué vamos a modificar (color, tamaño, fuente…)
+- El SELECTOR indica al navegador que elementos modificaremos.
+- La PROPIEDAD qué vamos a modificar (color, tamaño, fuente...).
 - Y el VALOR será el valor que queramos aplicar a esta propiedad.
 
-Por ejemplo, podemos aplicar un color rojo a los elemento **<p>**
+Por ejemplo, podemos aplicar un color rojo a los elementos **<p>**
 
  
 
@@ -71,12 +71,12 @@ La segunda opción es incluir directamente código CSS dentro de nuestro HTML co
 
 No es recomendable por varias razones:
 
-- No podemos reutilizar en otras páginas HTML estos estilos
-- Aumentamos sin sentido el tamaño del HTML
+- No podemos reutilizar en otras páginas HTML estos estilos.
+- Aumentamos sin sentido el tamaño del HTML.
 
 ### **FICHEROS EXTERNOS**
 
-La tercera opción  [  ESTA ES LA BUENA  ] es mediante un fichero CSS. Para ello lo creamos con la extensión .css dentro de nuestro proyecto. Una vez lo tengamos lo referenciamos dentro de nuestro documento HTML dentro de la etiqueta <head>
+La tercera opción  [  ESTA ES LA BUENA  ] es mediante un fichero CSS. Para ello lo creamos con la extensión .css dentro de nuestro proyecto. Una vez lo tengamos, lo referenciamos dentro de nuestro documento HTML dentro de la etiqueta <head>
 
 ```html
 <link rel="stylesheet" href="./estilos.css">
