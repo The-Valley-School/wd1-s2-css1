@@ -76,7 +76,7 @@ No es recomendable por varias razones:
 
 ### **FICHEROS EXTERNOS**
 
-La tercera opción  [  ESTA ES LA BUENA  ] es mediante un fichero CSS. Para ello lo creamos con la extensión .css dentro de nuestro proyecto. Una vez lo tengamos, lo referenciamos dentro de nuestro documento HTML dentro de la etiqueta <head>
+La tercera opción  [  ESTA ES LA BUENA  ] es mediante un fichero CSS. Para ello lo creamos con la extensión .css dentro de nuestro proyecto. Una vez lo tengamos, lo referenciamos dentro de nuestro documento HTML dentro de la etiqueta ```<head>```
 
 ```html
 <link rel="stylesheet" href="./estilos.css">
