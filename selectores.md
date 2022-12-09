@@ -25,7 +25,7 @@ Estos selectores son sencillos de usar pero no hacen una selección específica.
 
 ### **CLASES**
 
-Las clases nos sirven para asignar una propiedad a un grupo de atributos que nosotros queramos (Las etiquetas pueden ser diferentes). En HTML utilizamos el atributo **class**
+Las clases nos sirven para asignar una propiedad a un grupo de elementos que nosotros queramos (las etiquetas pueden ser diferentes). En HTML utilizamos el atributo **class**
 
 ```html
 <h2 class="titulo-rojo">Subtítulo 1</h2>
@@ -44,7 +44,7 @@ Cabe destacar que el atributo class acepta multiples nombres de clases separados
 
 ### **ID**
 
-El id es un identificador único, por lo que nos valdrá para asignarle un valor a una etiqueta concreta. Al ser un identificador único, no puede duplicarse
+El id es un identificador único, por lo que nos valdrá para asignarle un valor a una etiqueta concreta. Al ser un identificador único, no puede duplicarse.
 
  
 
@@ -54,7 +54,7 @@ El id es un identificador único, por lo que nos valdrá para asignarle un valor
 
  
 
-En CSS las clases se identifican con una almohadilla #
+En CSS los IDs se identifican con una almohadilla #
 
  
 
@@ -80,7 +80,7 @@ h1, h2{
 
   
 
-Es más podemos indicar únicamente los h2 que contengan una clase especial
+Es más, podemos indicar únicamente los h2 que contengan una clase especial
 
    
 
@@ -94,7 +94,7 @@ h1, h2.especial {
 
 ### **SELECTORES POR RELACIÓN**
 
-Podemos combinar también selectores. Indicando que todos los elementos de un elemento pueden tener un estilo específico
+También podemos combinar selectores. Indicando que todos los elementos de un elemento tengan un estilo específico.
 
    
 
@@ -113,10 +113,10 @@ Una etiqueta puede tener estilos asignados por etiqueta, clase o id. Estos se co
 > ID > CLASE > ETIQUETA
 > 
 
-Como podemos  tener varias clases asignadas a una etiqueta, puede darse el caso que ambas clases asignen un color distinto al texto. Como la hoja de estilos se lee de arriba a abajo, se asignará el valor de la última clase. En este ejemplo el título saldrá verde. Hay que tener mucho cuidado con esto para evitar pisar propiedades.
+Como podemos  tener varias clases asignadas a una etiqueta, puede darse el caso de cada clase asigne un color distinto al texto. Como la hoja de estilos se lee de arriba a abajo(en cascada), se asignará el valor de la última clase. En este ejemplo el título saldrá verde. Hay que tener mucho cuidado con esto para evitar pisar propiedades.
 
 ```html
-<h1 class="titulo-rojo titulo-verde">Título>/h1
+<h1 class="titulo-rojo titulo-verde">Título</h1>
 ```
 
 ```css
@@ -131,7 +131,7 @@ Como podemos  tener varias clases asignadas a una etiqueta, puede darse el caso 
 
 Cuando vimos la estructura de HTML explicamos que se trataba de una estructura de árbol con padres, hijos… 
 
-Esto cobra importancia también ahora, ya que algunos valores se heredan de los padres y abuelos. Hay otras que no se heredan. Las iremos viendo conforme trabajemos.
+Esto cobra importancia también ahora, ya que algunos valores se heredan de los padres y abuelos. Hay otros que no se heredan. Los iremos viendo conforme trabajemos.
 
 ```html
 <div class="texto-verde">
