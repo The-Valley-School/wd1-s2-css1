@@ -41,7 +41,7 @@ Para trabajar con CSS tenemos 3 opciones. SPOILER → Las dos primeras no las re
 
 ### **ESTILOS IN-LINE**
 
-La primera opción es incluir directamente el atributo style dentro de nuestro código html, por ejemplo para cambiar el color de un título
+La primera opción es incluir directamente el atributo style dentro de nuestro código html, por ejemplo para cambiar el color de un título.
 
  
 
@@ -59,7 +59,7 @@ No son recomendables por varias razones:
 
 ### **DENTRO DEL HEAD**
 
-La segunda opción es incluir directamente código CSS dentro de nuestro HTML con la etiqueta **<style>**
+La segunda opción es incluir directamente código CSS dentro de nuestro HTML con la etiqueta ```<style>```
 
 ```html
 <style>
