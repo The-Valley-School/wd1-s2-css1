@@ -23,7 +23,7 @@ SELECTOR {
 - La PROPIEDAD qué vamos a modificar (color, tamaño, fuente...).
 - Y el VALOR será el valor que queramos aplicar a esta propiedad.
 
-Por ejemplo, podemos aplicar un color rojo a los elementos **<p>***
+Por ejemplo, podemos aplicar un color rojo a los elementos ```<p>```
 
  
 
