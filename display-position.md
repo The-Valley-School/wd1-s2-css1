@@ -1,3 +1,5 @@
+## **Display y Position**
+
 ### **DISPLAY**
 
 Ahora que entendemos que los elementos de HTML funcionan como cajas, vamos a ver como podemos definir el tipo de caja que queremos mostrar. La propiedad display nos ayuda con ello.
