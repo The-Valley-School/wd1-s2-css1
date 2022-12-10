@@ -126,8 +126,8 @@ Y por último las colecciones:
 }
 
 .collection-description{
-    position:absolute;
-    top:115px;
+    position: absolute;
+    top: 115px;
     left: 30px;
 }
 
