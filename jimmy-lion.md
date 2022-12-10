@@ -82,7 +82,7 @@ Le toca el turno al gif:
 }
 ```
 
-Y por último a la colección:
+Y por último a las colecciones:
 
 ```css
 .collections{
