@@ -86,28 +86,28 @@ Y por último las colecciones:
 
 ```html
 <section class="collections">
-        <div class="collection">
-            <img src="./assets/calcetinesHombre.webp">
-            <div class="collection-description">
-                <p class="collection-description-buy">Comprar</p>
-                <p class="collection-description-text">HOMBRE</p>
-            </div>
-        </div>
-        <div class="collection">
-            <img src="./assets/calcetinesMujer.webp">
-            <div class="collection-description">
-                <p class="collection-description-buy">Comprar</p>
-                <p class="collection-description-text">MUJER</p>
-            </div>
-        </div>
-        <div class="collection">
-            <img src="./assets/calcetinesNino.webp">
-            <div class="collection-description">
-                <p class="collection-description-buy">Comprar</p>
-                <p class="collection-description-text">NIÑO</p>
-            </div>
-        </div>
-    </section>
+	<div class="collection">
+	    <img src="./assets/calcetinesHombre.webp">
+	    <div class="collection-description">
+		<p class="collection-description-buy">Comprar</p>
+		<p class="collection-description-text">HOMBRE</p>
+	    </div>
+	</div>
+	<div class="collection">
+	    <img src="./assets/calcetinesMujer.webp">
+	    <div class="collection-description">
+		<p class="collection-description-buy">Comprar</p>
+		<p class="collection-description-text">MUJER</p>
+	    </div>
+	</div>
+	<div class="collection">
+	    <img src="./assets/calcetinesNino.webp">
+	    <div class="collection-description">
+		<p class="collection-description-buy">Comprar</p>
+		<p class="collection-description-text">NIÑO</p>
+	    </div>
+	</div>
+</section>
 ```
 
 ```css
