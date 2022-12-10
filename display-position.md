@@ -39,7 +39,7 @@ Con el siguiente ejemplo vamos a ver cada uno de ellos:
 
 ### **DISPLAY BLOCK**
 
-Por defecto, los ´<divs>´ tienen la propiedad 'display:block' lo que hacen que ocupen todo el ancho de nuestra página.
+Por defecto, los <divs> tienen la propiedad 'display:block' lo que hacen que ocupen todo el ancho de nuestra página.
 
 ### **DISPLAY INLINE**
 
