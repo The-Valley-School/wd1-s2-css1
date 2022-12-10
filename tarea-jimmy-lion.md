@@ -4,6 +4,6 @@ Tras haber hecho 3 secciones de la web, llega el turno de poneros manos a la obr
 - **Sección packs personalizados**: Usar los mismos principios de posicionamiento que hemos trabajado en la sección collections.
 - **Sección novedades**: Aquí hay que hacer uso de lo que hemos aprendido en cuanto a tamaño de caja y display.
 - **Sección formulario:** Es una estructura sencilla con un solo input.
-- **Sección footer**: Misma estructura que el header (sin la etiqueta nav y cambiando un logo por un texto.
+- **Sección footer**: Misma estructura que el header (sin la etiqueta nav y cambiando un logo por un texto).
 
 ¡A por ello!
