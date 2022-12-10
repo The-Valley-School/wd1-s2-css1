@@ -4,7 +4,7 @@
 
 Ahora que entendemos que los elementos de HTML funcionan como cajas, vamos a ver como podemos definir el tipo de caja que queremos mostrar. La propiedad display nos ayuda con ello.
 
-Tenemos muchos valores que podemos asignar a display, aunque los más importantes son:
+Tenemos muchos valores que podemos asignar a `display`, aunque los más importantes son:
 
 - Inline
 - Block
@@ -39,13 +39,13 @@ Con el siguiente ejemplo vamos a ver cada uno de ellos:
 
 ### **DISPLAY BLOCK**
 
-Por defecto, los <divs> tienen la propiedad display:block lo que hacen que ocupen todo el ancho de nuestra página.
+Por defecto, los ´<divs>´ tienen la propiedad 'display:block' lo que hacen que ocupen todo el ancho de nuestra página.
 
 ### **DISPLAY INLINE**
 
-Si ponemos dentro de la clase box → display:inline vemos que todo desaparece.¿Qué ha pasado?
+Si ponemos dentro de la clase box → display:inline vemos que todo desaparece. ¿Qué ha pasado?
 
-Esto se debe a que la propiedad inline no acepta las propiedades width y height, el tamaño viene definido por lo que haya dentro de esos contenedores.
+Esto se debe a que la propiedad inline no acepta las propiedades `width` y `height`, el tamaño viene definido por lo que haya dentro de esos contenedores.
 
 ```html
 <body>
@@ -65,11 +65,11 @@ Esto se debe a que la propiedad inline no acepta las propiedades width y height,
 }
 ```
 
-Si inspeccionamos ahora, vemos que la caja ocupa lo que contiene, en cambio con display:block ocupábamos el 100% del ancho.
+Si inspeccionamos ahora, vemos que la caja ocupa lo que contiene, en cambio con `display:block` ocupábamos el 100% del ancho.
 
 ### **DISPLAY INLINE-BLOCK**
 
-Con display:inline-block los elementos pueden mantener un ancho y alto predefinido ocupando ese espacio. Sería un mix entre inline y block.
+Con `display:inline-block` los elementos pueden mantener un ancho y alto predefinido ocupando ese espacio. Sería un mix entre `inline` y `block`.
 
  
 
@@ -97,7 +97,7 @@ Con display:inline-block los elementos pueden mantener un ancho y alto predefini
 
 ### **DISPLAY FLEX**
 
-Con display flex los elementos se hacen flexibles y se posicionan unos al lado del otro.
+Con display flex los elementos se hacen flexibles y se posicionan uno al lado del otro.
 
   
 
@@ -163,12 +163,12 @@ La propiedad position nos sirve para especificar la forma en la que se posiciona
 
 - static
 - relative
-- absollute
+- absolute
 - fixed
 
 ### **STATIC**
 
-Posicionamiento por defecto, acorde al flujo normal de la web. Con static propiedades como top, right y demás no tienen efecto.
+Posicionamiento por defecto, acorde al flujo normal de la web. Con `static` propiedades como `top`, `right` y demás no tienen efecto.
 
  
 
@@ -188,7 +188,7 @@ Posicionamiento por defecto, acorde al flujo normal de la web. Con static propie
 
 .primer {
 	background-color:green;
-	positon:static;
+	position:static;
 }
 
 .segundo {
@@ -201,7 +201,7 @@ Posicionamiento por defecto, acorde al flujo normal de la web. Con static propie
 
 ### **RELATIVE**
 
-Posicionamiento relativo al flujo normal de la web. Con relative propiedades como top, right y se iniciarán en las coordenadas 0,0 del elemento en cuestión.
+Posicionamiento relativo al flujo normal de la web. Con `relative` propiedades como `top`, `right`, `bottom` y `left` se iniciarán desde las coordenadas 0,0 del elemento en cuestión.
 
  
 
@@ -220,15 +220,15 @@ Posicionamiento relativo al flujo normal de la web. Con relative propiedades com
 }
 
 .primer {
-	background-color:green;
+  background-color: green;
 
 }
 
 .segundo {
-  position:relative;
-	background-color:red;
-  top:20px;
-  left:20px;
+  position: relative;
+  background-color: red;
+  top: 20px;
+  left: 20px;
 }
 
 ```
@@ -237,10 +237,9 @@ Posicionamiento relativo al flujo normal de la web. Con relative propiedades com
 
 ### **ABSOLUTE**
 
-Se posiciona en función del primer padre que encuentre con relative.
+Se posiciona en función del primer padre que encuentre con `relative`.
 
  
-
 ```html
 <html>
 <body>
@@ -261,12 +260,12 @@ Se posiciona en función del primer padre que encuentre con relative.
 }
 
 .primer {
-	background-color:green;
+  background-color:green;
 
 }
 
 .segundo {
-	background-color:red;
+  background-color:red;
   position:relative;
 }
 
@@ -276,11 +275,10 @@ Se posiciona en función del primer padre que encuentre con relative.
 }
 ```
 
- 
 
 ### **FIXED**
 
-El elemento se mantiene en la misma posición aunque hagamos scroll,
+El elemento se mantiene en la misma posición aunque hagamos scroll.
 
  
 
@@ -294,15 +292,15 @@ El elemento se mantiene en la misma posición aunque hagamos scroll,
 
 ```css
 .bloque {
-margin: 15px 0;
-border: 2px solid black;
-width: 300px;
+  margin: 15px 0;
+  border: 2px solid black;
+  width: 300px;
 }
 
 .primer {
-background-color:green;
-position:fixed;
-bottom:0;
+  background-color:green;
+  position:fixed;
+  bottom:0;
 }
 ```
 
